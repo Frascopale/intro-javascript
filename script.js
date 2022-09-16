@@ -9,6 +9,7 @@ let lattuga = 0;
 let cipolla = 0.989;
 let bananre = "POIU";
 let zucchero = true; 
+const br = "<br>";
 
 if (cipolla > 2) {
     zucchero= false;
@@ -27,6 +28,13 @@ while ( lattuga < 101) {
     lattuga++;
 }
 
-document.write(cipolla);
+document.write(cipolla + br);
 
 let aglio= 1 + 3;
+
+let melanzana = prompt("scrivi qua");
+document.write(melanzana + br );
+
+let pomodoro = 0.2;
+let peperone = 0.3;
+document.write(pomodoro + peperone + br);
